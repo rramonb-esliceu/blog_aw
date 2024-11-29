@@ -7,11 +7,12 @@
 body{
     margin: 0 ;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 .p-default {
     padding: 160px 220px 60px 220px;
-    box-sizing: border-box; 
 }
 
 .button{
@@ -19,6 +20,17 @@ body{
     height: 32px;
 }
 
+
 .col-80{
     width: 80%;
+}
+
+.sm-img{
+    width: 470px;
+    height: 300px;
+}
+
+.button2{
+    width: 58px;
+    height: 32px;
 }
