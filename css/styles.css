@@ -15,6 +15,15 @@ body{
     padding: 160px 220px 60px 220px;
 }
 
+.px-default {
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
 .button{
     width: 95px;
     height: 32px;
