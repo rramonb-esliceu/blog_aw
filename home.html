@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <nav class="bg-dark">
+        <nav class="bg-dark epilogue font-nav-bar">
             <div class="d-flex flex-row text-light">
                 <div class="text-center me-5 py-3">Blogful</div>
                 <div class="d-flex flex-row">
@@ -17,6 +20,7 @@
                     <div class="text-center mt-3 mx-3">Culture</div>
                     <div class="text-center mt-3 mx-3">Ideas</div>
                     <div class="text-center mt-3 mx-3">Technology</div>
+                    <svg class="text-center my-4 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="22.03" height="24" stroke-width="2"> <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path> <path d="M21 21l-6 -6"></path> </svg> 
                 </div>
             </div>
         </nav>
@@ -32,13 +36,13 @@
             </div>
         </div>
         <div class="row mb-3">
-            <p class="my-1">Kate Glotova | Art Director | 5 min read</p>
+            <p class="my-1 opacity-40">Kate Glotova | Art Director | 5 min read</p>
             <p class="my-1">March 13, 2022</p>
         </div>
         <div class="row">
             <div class="col-12 col-80">
                 <h3>Anima Introduces: Hotspots Hints</h3>
-                <p>Write the blog description right here, Write the blog description right here, Write the blog description right here.Write the blog description right here, Write the blog description right here, Write the blog description right here. Write the blog description right here, Write the blog description right here, Write the blog description right here.</p>
+                <p class="opacity-60">Write the blog description right here, Write the blog description right here, Write the blog description right here.Write the blog description right here, Write the blog description right here, Write the blog description right here. Write the blog description right here, Write the blog description right here, Write the blog description right here.</p>
                 <a href="">Learn more</a>
             </div>
         </div>
@@ -48,21 +52,21 @@
             <div class="col-6 pb-5 border-bottom border-2">
                 <div class="row">
                     <img src="img/image02.png" alt="" class="sm-img">
-                    <p class="button2 text-center text-info border border-info rounded-pill mt-3">Ideas</p>
-                    <p>Lorenzo Hamers | Product designer</p>
-                    <p>4 min read | October 13, 2022</p>
+                    <p class="text-center text-info border border-info rounded-pill mt-3 col-3">Ideas</p>
+                    <p class="opacity-40">Lorenzo Hamers | Product designer</p>
+                    <p class="opacity-40">4 min read | October 13, 2022</p>
                     <h3>Better Forms with Input Types, Auto-Complete, and Validation</h3>
-                    <p>Anima allows designers to create high-fidelity prototypes inside all design tools.</p>
+                    <p class="opacity-60">Anima allows designers to create high-fidelity prototypes inside all design tools.</p>
                 </div>
             </div>
             <div class="col-6 pb-5 border-bottom border-2">
                 <div class="row">
                     <img src="img/image03.png" alt="" class="sm-img">
-                    <p class="button2 text-center text-info border border-info rounded-pill mt-3">Ideas</p>
-                    <p>Mathias Reding | Game Boost | 4 min read</p>
-                    <p>November 11, 2022</p>
+                    <p class="text-center text-info border border-info rounded-pill mt-3 col-3">Ideas</p>
+                    <p class="opacity-40">Mathias Reding | Game Boost | 4 min read</p> 
+                    <p class="opacity-40">November 11, 2022</p>
                     <h3>Anima Introduces: the best Hints you should know</h3>
-                    <p>Hotspot Hints Help Guide Users Navigate Through a Prototype, Anima allows designers to create prototypes.</p>
+                    <p class="opacity-60">Hotspot Hints Help Guide Users Navigate Through a Prototype, Anima allows designers to create prototypes.</p>
                 </div>
             </div>
         </div>
@@ -71,71 +75,110 @@
         <div class="row">
             <h2>Trending topics</h2>
             <div class="row">
-                <div class="col-6 pb-5 border-bottom border-2">
+                <div class="col-6 pb-5">
                     <div class="row">
                         <img src="img/image04.png" alt="" class="sm-img">
-                        <p class="button2 text-center text-info border border-info rounded-pill mt-3">Ideas</p>
-                        <p>Kate Glotova | Art Director | 5 min read</p>
-                        <p>March 13, 2022</p>
-                        <h3>Anima Introduces: the best Hints you should know</h3>
-                        <p>Hotspot Hints Help Guide Users Navigate Through a Prototype, Anima allows designers to create prototypes.</p>
+                        <p class="text-center text-info border border-info rounded-pill mt-3 col-3">Ideas</p>
+                        <div class="row">
+                            <div class="width-340">
+                                <p class="opacity-40">March 13, 2022</p>
+                                <p class="opacity-40">Kate Glotova | Art Director | 5 min read</p>
+                            </div>
+                            <div class="width-334">
+                                <h3>Anima Introduces: the best Hints you should know</h3>
+                                <p class="opacity-60">Hotspot Hints Help Guide Users Navigate Through a Prototype, Anima allows designers to create prototypes.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-6 pb-5 border-bottom border-2">
+                <div class="col-6 pb-5">
                     <div class="row">
                         <img src="img/image05.png" alt="" class="sm-img">
-                        <p class="button2 text-center text-info border border-info rounded-pill mt-3">Ideas</p>
-                        <p>Kate Glotova | Art Director | 4 min read</p>
-                        <p>September 23, 2022</p>
-                        <h3>Talking now about sharing!</h3>
-                        <p>Typography in advertising often reflects a company's brand. A brand may use typography to express its theme, personality, and message.</p>
+                        <p class="text-center text-info border border-info rounded-pill mt-3 col-3">Culture</p>
+                        <div class="row">
+                            <div class="width-340">
+                                <p class="opacity-40">Kate Glotova | Art Director | 4 min read</p>
+                                <p class="opacity-40">September 23, 2022</p>
+                            </div>
+                            <div class="width-334">
+                                <h3>Talking now about sharing!</h3>
+                                <p class="opacity-60">Typography in advertising often reflects a company's brand. A brand may use typography to express its theme, personality, and message.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 pb-5 border-bottom border-2">
+                <div class="col-6 pb-5">
                     <div class="row">
                         <img src="img/image06.png" alt="" class="sm-img">
-                        <p class="button2 text-center text-info border border-info rounded-pill mt-3">Ideas</p>
-                        <p>Stephen Leonardi | Software Engineer</p>
-                        <p>September 8, 2022 | 3 min read</p>
-                        <h3>Learn how to organize Your Anima Project with Sections</h3>
-                        <p>Create dividers and drag screens to arrange your Anima projects.</p>
+                        <p class="text-center text-info border border-info rounded-pill mt-3 col-3">Technology</p>
+                        <div class="row">
+                            <div class="width-340">
+                                <p class="opacity-40">Stephen Leonardi | Software Engineer</p>
+                                <p class="opacity-40">September 8, 2022 | 3 min read</p>
+                            </div>
+                            <div class="width-334">
+                                <h3>Learn how to organize Your Anima Project with Sections</h3>
+                                <p class="opacity-60">Create dividers and drag screens to arrange your Anima projects.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-6 pb-5 border-bottom border-2">
+                <div class="col-6 pb-5">
                     <div class="row">
                         <img src="img/image07.png" alt="" class="sm-img">
-                        <p class="button2 text-center text-info border border-info rounded-pill mt-3">Ideas</p>
-                        <p>Jessica Cordoba | Frontend developer</p>
-                        <p>4 min read | May 24, 2022</p>
-                        <h3>What you need to know about code languages</h3>
-                        <p>Rather than having to jump into strict syntax rules, Python reads like English and is simple to understand for someone who's new to programming.</p>
+                        <p class="text-center text-info border border-info rounded-pill mt-3 col-3">Ideas</p>
+                        <div class="row">
+                            <div class="width-340">
+                                <p class="opacity-40">Jessica Cordoba | Frontend developer</p>
+                                <p class="opacity-40">4 min read | May 24, 2022</p>
+                            </div>
+                            <div class="width-334">
+                                <h3>What you need to know about code languages</h3>
+                                <p class="opacity-60">Rather than having to jump into strict syntax rules, Python reads like English and is simple to understand for someone who's new to programming.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 pb-5 border-bottom border-2">
+                <div class="col-6 pb-5">
                     <div class="row">
                         <img src="img/image08.png" alt="" class="sm-img">
-                        <p class="button2 text-center text-info border border-info rounded-pill mt-3">Ideas</p>
-                        <p>Lorenzo Hamers | Product designer</p>
-                        <p>4 min read | October 13, 2022</p>
-                        <h3>Better Forms with Input Types, Auto-Complete, and Validation</h3>
-                        <p>Anima allows designers to create high-fidelity prototypes inside all design tools.</p>
+                        <p class="text-center text-info border border-info rounded-pill mt-3 col-3">Ideas</p>
+                        <div class="row">
+                            <div class="width-340">
+                                <p class="opacity-40">Lorenzo Hamers | Product designer </p>
+                                <p class="opacity-40">4 min read | October 13, 2022</p>
+                            </div>
+                            <div class="width-334">
+                                <h3>Better Forms with Input Types, Auto-Complete, and Validation</h3>
+                                <p class="opacity-60">Anima allows designers to create high-fidelity prototypes inside all design tools.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-6 pb-5 border-bottom border-2">
+                <div class="col-6 pb-5">
                     <div class="row">
                         <img src="img/image09.png" alt="" class="sm-img">
-                        <p class="button2 text-center text-info border border-info rounded-pill mt-3">Ideas</p>
-                        <p>Kate Glotova | Art Director | 4 min read</p>
-                        <p>November 11, 2022</p>
-                        <h3>Anima Introduces: the best Hints you should know</h3>
-                        <p>Hotspot Hints Help Guide Users Navigate Through a Prototype, Anima allows designers to create prototypes.</p>
+                        <p class="text-center text-info border border-info rounded-pill mt-3 col-3">Technology</p>
+                        <div class="row">
+                            <div class="width-340">
+                                <p class="opacity-40">Jessica Cordoba | Frontend Developer </p>
+                                <p class="opacity-40">4 min read | May 24, 2022</p>
+                            </div>
+                            <div class="width-334">
+                                <h3>What you need to know about code lemguages</h3>
+                                <p class="opacity-60">Rather than having to jump into strict syntax rules. Python reads like English and is simple to understand for someone who's new to programming.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row p-show-more border-bottom border-2">
+            <p id="show-more" class="rounded show-more">SHOW MORE</p>
         </div>
     </div>
 </body>

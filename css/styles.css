@@ -1,3 +1,52 @@
+
+
+.epilogue{
+    font-family: "Epilogue", sans-serif;
+}
+.font-nav-bar{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+h2{
+    font-family: "Epilogue", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+h3{
+    font-family: Epilogue;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+p{
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.opacity-40{
+    opacity: 40%;
+}
+
+.opacity-60{
+    opacity: 60%;
+}
 .nav-size{
     height: 80px;
     padding-top: 40px;
@@ -42,4 +91,28 @@ body{
 .button2{
     width: 58px;
     height: 32px;
+}
+
+.width-334{
+    width: 334px;
+}
+
+.width-340{
+    width: 340px;
+}
+
+.p-show-more{
+    padding: 160px 400px;
+}
+
+.show-more{
+    width: 199.8px;
+    height: 60px;
+}
+
+#show-more{
+    font-family: sans-serif;
+    font-size: 8px;
+    color: white;
+    background-color: #1976D2;
 }
