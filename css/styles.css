@@ -11,6 +11,17 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+h1{
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
 h2{
     font-family: "Epilogue", sans-serif;
     font-size: 24px;
@@ -102,17 +113,24 @@ body{
 }
 
 .p-show-more{
-    padding: 160px 400px;
+    padding: 150px 350px;
 }
 
-.show-more{
+#show-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 199.8px;
     height: 60px;
 }
 
-#show-more{
+.show-more{
     font-family: sans-serif;
-    font-size: 8px;
+    font-size: 18px;
     color: white;
     background-color: #1976D2;
+}
+
+.footer{
+    padding: 100px 0px;
 }
