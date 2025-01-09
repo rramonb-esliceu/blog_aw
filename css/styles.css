@@ -134,10 +134,10 @@ body{
 .footer{
     padding: 100px 0px;
 }
-/*Article*/
 
+/*Article*/
 .p-article{
-    padding: 140px 220px 50px 220px;
+    padding: 140px 120.4px 50px 120.4px;
 }
 
 #back{
@@ -165,4 +165,18 @@ body{
     text-decoration-skip-ink: none;
 }
 
-.
+.img-man{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 0px;
+    margin-left: 10px;
+}
+.p-input-text{
+    height: 576px;
+    width: 800px;
+}
+
+.width-470{
+    width: 470px;
+}
