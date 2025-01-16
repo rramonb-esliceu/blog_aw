@@ -184,3 +184,8 @@ body{
 .width-370{
     width: 370px;
 }
+
+/*Contact*/
+.p-contact{
+    padding: 100px 220px 100px 220px;
+}
