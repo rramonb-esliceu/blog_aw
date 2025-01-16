@@ -1,5 +1,13 @@
+/*header*/
+.bg-header{
+    background-color: #2B2B2B;
+}
 
+.active{
+    color: #FFFFFF;
+}
 
+/**/
 .epilogue{
     font-family: "Epilogue", sans-serif;
 }
@@ -39,7 +47,7 @@ h3{
     line-height: 36px;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    text-decoration: none;
 }
 p{
     font-family: Epilogue;
@@ -51,6 +59,10 @@ p{
     text-decoration-skip-ink: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .opacity-40{
     opacity: 40%;
 }
@@ -187,5 +199,5 @@ body{
 
 /*Contact*/
 .p-contact{
-    padding: 100px 220px 100px 220px;
+    padding: 0px 220px 100px 220px;
 }
