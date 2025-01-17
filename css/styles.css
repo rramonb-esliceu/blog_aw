@@ -1,3 +1,78 @@
+/*media*/
+@media (min-width: 1141px) {
+    .p-default {
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .px-default {
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .p-show-more{
+        padding: 150px 350px;
+    }
+    .p-article{
+        padding: 140px 120.4px 50px 120.4px;
+    }
+    .big-h1{
+        width: 1000px;
+        height: 130px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Epilogue;
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 65px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .p-contact{
+        padding: 0px 220px 100px 220px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .p-default {
+        padding-left: 15;
+        padding-right: 15;
+        margin: 0;
+    }
+    .px-default {
+        padding-left: 15;
+        padding-right: 15;
+        margin: 0;
+    }
+    .p-show-more{
+        align-items: center;
+        align-self: center;
+    }
+    .menu-item{
+        display: none;
+    }
+    .menu-logo {
+        display: inline;
+    }
+    .p-article{
+        padding: 140px 0px 50px 0px;
+    }
+    .big-h1{
+        width: auto;
+        height: auto;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Epilogue;
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 65px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .p-contact{
+        padding: 0px 0px 100px 0px;
+    }
+}
 /*header*/
 .bg-header{
     background-color: #2B2B2B;
@@ -10,6 +85,17 @@
 /**/
 .epilogue{
     font-family: "Epilogue", sans-serif;
+}
+.p-default {
+    padding-top: 160px;
+    padding: 160px auto 60px auto;
+    margin: auto;
+}
+
+.px-default {
+    padding-left: auto;
+    padding-right: auto;
+    margin: auto;
 }
 .font-nav-bar{
     font-size: 18px;
@@ -83,14 +169,6 @@ body{
 
 }
 
-.p-default {
-    padding: 160px 220px 60px 220px;
-}
-
-.px-default {
-    padding-left: 220px;
-    padding-right: 220px;
-}
 
 .pt-100{
     padding-top: 100px;
@@ -125,7 +203,7 @@ body{
 }
 
 .p-show-more{
-    padding: 150px 350px;
+    padding: auto auto;
 }
 
 #show-more{
@@ -149,7 +227,7 @@ body{
 
 /*Article*/
 .p-article{
-    padding: 140px 120.4px 50px 120.4px;
+    padding: auto auto auto auto;
 }
 
 #back{
@@ -164,8 +242,8 @@ body{
 }
 
 .big-h1{
-    width: 1000px;
-    height: 130px;
+    width: auto;
+    height: auto;
     gap: 0px;
     opacity: 0px;
     font-family: Epilogue;
@@ -199,5 +277,5 @@ body{
 
 /*Contact*/
 .p-contact{
-    padding: 0px 220px 100px 220px;
+    padding: auto auto auto auto;
 }
